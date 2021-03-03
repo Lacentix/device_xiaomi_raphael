@@ -110,6 +110,10 @@ vendor.qcom.bluetooth.soc=cherokee
 persist.camera.gyro.disable=0
 camera.disable_zsl_mode=true
 
+# Chipset
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM8150
+
 # Dalvik
 pm.dexopt.boot=verify
 pm.dexopt.first-boot=verify
