@@ -249,9 +249,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
-
 # Init
 PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
@@ -425,9 +422,6 @@ PRODUCT_PACKAGES += \
     telephony-ext \
     TelephonyResRaphael
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
@@ -490,9 +484,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti.vendor \
     libnl \
     libqdMetaData 
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
