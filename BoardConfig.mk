@@ -114,8 +114,8 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 # FM
 BOARD_HAVE_QCOM_FM := true
 
-# FOD
-TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.xiaomi_raphael
+# Fingerprint
+TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.xiaomi_raphael
 TARGET_USES_FOD_ZPOS := true
 
 # GPS

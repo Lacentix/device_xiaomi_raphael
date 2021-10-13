@@ -477,6 +477,10 @@ vendor/lib64/libwvhidl.so
 vendor/lib/liboemcrypto.so|bd6c31e31016704fdf58ce10e8787bdf0e8d6398
 vendor/lib64/liboemcrypto.so|9aad24f21a73880ff304925f2859695664bd973c
 
+# Fingerprint
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.msmnile.so
+vendor/lib64/libgf_hal.so
+
 # Firmware (Audio) - from raphael-user-11-RKQ1.200826.002-V12.5.1.0.RFKMIXM-release-keys
 vendor/firmware/mono.cnt|0b5ab0f7cdd157cfa5f595e27faf9adc7678548d
 vendor/firmware/tfa98xx.cnt|90ff4ddd45cd4eb82dc53ecff0e7309db9b062a7
