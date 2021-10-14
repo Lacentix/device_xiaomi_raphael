@@ -477,20 +477,6 @@ vendor/lib64/libwvhidl.so
 vendor/lib/liboemcrypto.so|bd6c31e31016704fdf58ce10e8787bdf0e8d6398
 vendor/lib64/liboemcrypto.so|9aad24f21a73880ff304925f2859695664bd973c
 
-# Fingerprint - from raphael-user-11-RKQ1.200826.002-V12.5.1.0.RFKMIXM-release-keys
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|4250f42e86ddf43b23a0feb1888a3e5c13b11be3
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|0adcab77421b720a2a3a7a4b862e54d8bdef171e
--vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml|49e82d6a43981e254d224dcc93b3ff27e0fb8407
-vendor/lib/hw/fingerprint.goodix_fod.so|555cc68594ed908ecbea9f88dfad1bb5fd81ba38
-vendor/lib/libgf_hal.so|aa4acca816bd6e7c4df64b53f0511359b585ae0a
-vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so|fa3518be64523a9f8c157992c22571ca62dd2709
-vendor/lib64/hw/fingerprint.goodix_fod.so|6c5ff96de82cca1c2ce9aeae79cdb3f92fcb1a16
-vendor/lib64/libarm_proxy_skel.so|6debebf554aee45b79c566937720e7ac88bc0cc5
-vendor/lib64/libgf_hal.so|4375f310c9900cee9efa5e2818ecf31ab0e29045
-vendor/lib64/libhvx_proxy_stub.so|f1731311a709ae847b905141164e66f5ec393c02
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so|8ccb882cb397650f4e4f7797423ce70ff5e7a7a1
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so|393d8da1466f00bc4479f557ce5d41b879831eee
-
 # Firmware (Audio) - from raphael-user-11-RKQ1.200826.002-V12.5.1.0.RFKMIXM-release-keys
 vendor/firmware/mono.cnt|0b5ab0f7cdd157cfa5f595e27faf9adc7678548d
 vendor/firmware/tfa98xx.cnt|90ff4ddd45cd4eb82dc53ecff0e7309db9b062a7
