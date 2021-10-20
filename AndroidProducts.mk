@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_raphael.mk
+    $(LOCAL_DIR)/statix_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_raphael-user \
-    yaap_raphael-userdebug \
-    yaap_raphael-eng
+    statix_raphael-user \
+    statix_raphael-userdebug \
+    statix_raphael-eng

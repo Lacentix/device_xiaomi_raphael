@@ -7,4 +7,10 @@
         "repository":   "vendor_xiaomi_raphael",
         "target_path":  "vendor/xiaomi/raphael"
     }
+    {
+      "repository":"LineageOS/android_packages_resources_devicesettings",
+      "target_path":"packages/resources/devicesettings",
+      "branch":"lineage-19.0",
+      "remote":"github"
+    }
 ]
