@@ -192,11 +192,6 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
-# Fstab
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom \
-    $(LOCAL_PATH)/rootdir/etc/fstab.zram:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.zram
-
 # FUSE passthrough
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.fuse.passthrough.enable=true
@@ -264,14 +259,17 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    init.mi.usb.sh \
     init.qcom.post_boot.sh \
-    init.qcom.rc \
+    fstab.qcom \
+    fstab.qcom.ramdisk \
+    fstab.zram \
     init.qcom.sh \
+    init.raphael.rc \
+    init.qcom.rc \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
-    init.mi.usb.sh \
     init.recovery.qcom.rc \
-    init.raphael.rc \
     init.target.rc \
     ueventd.qcom.rc
 
