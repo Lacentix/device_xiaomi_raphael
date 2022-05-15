@@ -38,8 +38,16 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-yaap
+    CarrierConfigRes \
+    FrameworksRes \
+    Settings \
+    SettingsLib \
+    SettingsProvider \
+    SystemUI \
+    TelephonyRes \
+    YAAPFrameworks \
+    YAAPSettings \
+    YAAPSystemUI
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -443,8 +451,7 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-    telephony-ext \
-    TelephonyResRaphael
+    telephony-ext
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
